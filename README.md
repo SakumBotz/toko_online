@@ -1,4 +1,4 @@
-Import database wajib
-jangan lupa edit dibagian koneksi.php
-untuk akses login admin panel masukan username: Ade Roni dan password: admin123
+1. Import database wajib
+2. jangan lupa edit dibagian koneksi.php
+3. untuk akses login admin panel masukan username: Ade Roni dan password: admin123
 terimaksih
