@@ -1,0 +1,295 @@
+.baner {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../foto/baner.jpg');
+}
+.baner-produk {
+    height: 40vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../foto/baner.jpg');
+    background-size: cover;
+    color: white;
+    animation: fadeIn 2s ease;
+}   
+.baner-produk2 {
+    height: 40vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('foto/baner.jpg');
+    background-size: cover;
+    color: white;
+    animation: fadeIn 2s ease;
+}  
+
+.produk-detail-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* === CSS Classes untuk Setiap Warna === */
+
+/* Biru */
+.warna1 { background-color: #1fb6ff; }       /* Biru Muda */
+.warna2 { background-color: #85d7ff; }       /* Biru Terang */
+.warna3 { background-color: #009eeb; }       /* Biru Tua */
+.warna4 { background-color: #0056b3; }       /* Biru Navy */
+.warna5 { background-color: #003366; }       /* Biru Gelap */
+
+/* Hijau */
+.warna6 { background-color: #22c55e; }       /* Hijau */
+.warna7 { background-color: #a3e635; }       /* Hijau Terang */
+.warna8 { background-color: #16a34a; }       /* Hijau Hutan */
+.warna9 { background-color: #065f46; }       /* Hijau Tua */
+.warna10 { background-color: #c0f5a9; }      /* Hijau Mint */
+
+/* Merah */
+.warna11 { background-color: #ff4949; }      /* Merah */
+.warna12 { background-color: #ff6b6b; }      /* Merah Terang */
+.warna13 { background-color: #cc3333; }      /* Merah Marun */
+.warna14 { background-color: #ff4d4d; }      /* Merah Muda */
+.warna15 { background-color: #ffcccc; }      /* Merah Pastel */
+
+/* Oranye */
+.warna16 { background-color: #ff8c00; }      /* Oranye */
+.warna17 { background-color: #ffb347; }      /* Oranye Terang */
+.warna18 { background-color: #ff4500; }      /* Oranye Kemerahan */
+.warna19 { background-color: #ff6f00; }      /* Oranye Tua */
+.warna20 { background-color: #ffa07a; }      /* Oranye Salmon */
+
+/* Kuning */
+.warna21 { background-color: #ffbe0b; }      /* Kuning Terang */
+.warna22 { background-color: #f9d71c; }      /* Kuning Emas */
+.warna23 { background-color: #ffd700; }      /* Kuning Gelap */
+.warna24 { background-color: #ffec99; }      /* Kuning Pastel */
+.warna25 { background-color: #fff9c4; }      /* Kuning Lemon */
+
+/* Ungu */
+.warna26 { background-color: #9b5de5; }      /* Ungu Terang */
+.warna27 { background-color: #7c3aed; }      /* Ungu Violet */
+.warna28 { background-color: #6f42c1; }      /* Ungu Anggur */
+.warna29 { background-color: #e0bbe4; }      /* Ungu Pastel */
+.warna30 { background-color: #4b0082; }      /* Ungu Tua */
+
+/* Abu-Abu */
+.warna31 { background-color: #f0f1f3; }      /* Abu-Abu Terang */
+.warna32 { background-color: #d1d5db; }      /* Abu-Abu */
+.warna33 { background-color: #6b7280; }      /* Abu-Abu Medium */
+.warna34 { background-color: #4a5157; }      /* Abu-Abu Gelap */
+.warna35 { background-color: #1f2937; }      /* Abu-Abu Tua */
+
+/* Putih dan Hitam */
+.warna36 { background-color: #ffffff; }      /* Putih */
+.warna37 { background-color: #f9fafb; }      /* Putih Pucat */
+.warna38 { background-color: #e5e7eb; }      /* Putih Abu */
+.warna39 { background-color: #0d1114; }      /* Hitam Pucat */
+.warna40 { background-color: #000000; }      /* Hitam */
+
+/* Warna-Warna Tambahan */
+.warna41 { background-color: #ff16d1; }      /* Pink Terang */
+.warna42 { background-color: #ff99cc; }      /* Pink Pastel */
+.warna43 { background-color: #00b4d8; }      /* Biru Laut */
+.warna44 { background-color: #90e0ef; }      /* Biru Langit */
+.warna45 { background-color: #ffdd57; }      /* Kuning Sinar Matahari */
+.warna46 { background-color: #c084fc; }      /* Ungu Lavender */
+.warna47 { background-color: #3b82f6; }      /* Biru Cobalt */
+.warna48 { background-color: #059669; }      /* Hijau Pinus */
+.warna49 { background-color: #8b4513; }      /* Coklat Tua */
+.warna50 { background-color: #a52a2a; }      /* Merah Bata */
+
+/*text warna*/
+/* Warna Teks Dasar */
+.text-putih {
+    color: #ffffff; /* Putih */
+}
+
+.text-hitam {
+    color: #000000; /* Hitam */
+}
+
+.text-merah {
+    color: #ff0000; /* Merah */
+}
+
+.text-hijau {
+    color: #008000; /* Hijau */
+}
+
+.text-biru {
+    color: #0000ff; /* Biru */
+}
+
+.text-kuning {
+    color: #ffff00; /* Kuning */
+}
+
+.text-abu-abu {
+    color: #808080; /* Abu-abu */
+}
+
+.text-orange {
+    color: #ffa500; /* Orange */
+}
+
+.text-coklat {
+    color: #8b4513; /* Coklat */
+}
+
+.text-pink {
+    color: #ff69b4; /* Pink */
+}
+
+.text-ungu {
+    color: #800080; /* Ungu */
+}
+
+.text-biru-muda {
+    color: #add8e6; /* Biru Muda */
+}
+
+.text-biru-tua {
+    color: #00008b; /* Biru Tua */
+}
+
+.text-merah-muda {
+    color: #ff1493; /* Merah Muda */
+}
+
+.text-hijau-tua {
+    color: #006400; /* Hijau Tua */
+}
+
+.text-krem {
+    color: #f5f5dc; /* Krem */
+}
+
+/* Warna Teks Pastel */
+.text-pastel-pink {
+    color: #ffb6c1; /* Pastel Pink */
+}
+
+.text-pastel-blue {
+    color: #aec6cf; /* Pastel Blue */
+}
+
+.text-pastel-yellow {
+    color: #fff5b7; /* Pastel Yellow */
+}
+
+.text-pastel-green {
+    color: #77dd77; /* Pastel Green */
+}
+
+.text-pastel-purple {
+    color: #b39eb5; /* Pastel Purple */
+}
+
+.text-pastel-orange {
+    color: #ffb347; /* Pastel Orange */
+}
+
+.text-pastel-lavender {
+    color: #e3e4fa; /* Pastel Lavender */
+}
+
+/* Warna Teks Terang */
+.text-biru-turquoise {
+    color: #40e0d0; /* Turquoise */
+}
+
+.text-merah-terang {
+    color: #ff6347; /* Tomato */
+}
+
+.text-hijau-teal {
+    color: #20b2aa; /* Light Sea Green */
+}
+
+.text-pink-terang {
+    color: #ff1493; /* Deep Pink */
+}
+
+.text-biru-langit {
+    color: #87ceeb; /* Sky Blue */
+}
+
+.text-kuning-pucat {
+    color: #ffffe0; /* Light Yellow */
+}
+
+/* Warna Teks RGB */
+.text-rgb-merah {
+    color: rgb(255, 0, 0); /* Merah (RGB) */
+}
+
+.text-rgb-hijau {
+    color: rgb(0, 255, 0); /* Hijau (RGB) */
+}
+
+.text-rgb-biru {
+    color: rgb(0, 0, 255); /* Biru (RGB) */
+}
+
+.text-rgb-abu {
+    color: rgb(128, 128, 128); /* Abu-abu (RGB) */
+}
+
+.text-rgb-kuning {
+    color: rgb(255, 255, 0); /* Kuning (RGB) */
+}
+
+.text-rgb-cyan {
+    color: rgb(0, 255, 255); /* Cyan (RGB) */
+}
+
+.text-rgb-magenta {
+    color: rgb(255, 0, 255); /* Magenta (RGB) */
+}
+
+/* Warna Teks RGBA (dengan transparansi) */
+.text-rgba-merah {
+    color: rgba(255, 0, 0, 0.7); /* Merah dengan transparansi */
+}
+
+.text-rgba-hijau {
+    color: rgba(0, 255, 0, 0.7); /* Hijau dengan transparansi */
+}
+
+.text-rgba-biru {
+    color: rgba(0, 0, 255, 0.7); /* Biru dengan transparansi */
+}
+
+.text-rgba-ungu {
+    color: rgba(128, 0, 128, 0.7); /* Ungu dengan transparansi */
+}
+
+.text-rgba-kuning {
+    color: rgba(255, 255, 0, 0.7); /* Kuning dengan transparansi */
+}
+
+.text-rgba-putih {
+    color: rgba(255, 255, 255, 0.7); /* Putih dengan transparansi */
+}
+
+.highlighted-kategori {
+    height: 250px;
+}
+
+.kategori-bahan-makanan-pokok {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../foto/gula-pasir.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-bahan-makanan-ringan-dan-cemilan {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../foto/gula-pasir-dan-merah.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-perlengkapan-sehari-hari {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../foto/gula-pasir-dan-merah.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.list-group a {
+    text-decoration: none;
+}
